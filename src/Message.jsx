@@ -30,7 +30,7 @@ export default function Message(){
     return(
         <div>
 
-            <h3>Messages</h3>
+            <h3 className="heading">Messages</h3>
 
             {currentMessages.map( (msg)=>(
                 <div className="msg" key={msg.id}>
